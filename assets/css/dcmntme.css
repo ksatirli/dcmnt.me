@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* site-specific */
+body {
+	font-family: 'Open Sans';
+  margin-bottom: 30px;
+}
+
+ul {
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.jumbotron {
+  background: #85D4A1;
+  color: #fff;
+	margin: 0 auto 50px;
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+.btn-info {
+	background: #85D4A1;
+	border-color: #85D4A1;
+}
+
+.btn-info:hover {
+  background: #3BB395;
+	border-color: #3BB395;
+}
+
+.col-md-12 {
+	padding: 0 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: #85D4A1;
+}
+
+.footer a {
+  color: #85D4A1;
+}

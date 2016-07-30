@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="dcmntmeApp">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="no-cache">
+  <meta http-equiv="Pragma" content="IE=edge">
+  <meta http-equiv="Expires" content="-1">
+  <meta http-equiv="cache-control" content="no-store">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dcmnt.me - short URLs for documenting your code</title>
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-csp.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/dcmntme.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h2><i class="fa fa-file-text-o"></i> Short URLs for code documentation</h2>
+    </div>
+  </div>
+
+  <div ng-controller="dcmntmeCtrl" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <label for="urlToShorten">Enter the URL you want to shorten below</label>
+        <div class="input-group input-group-lg">
+          <input
+            type="text"
+            class="form-control"
+            name="urlToShorten"
+            ng-model="urlToShorten"
+            placeholder="https://go.dcmnt.me/"
+          >
+          <span class="input-group-btn">
+            <button
+              class="btn"
+              ng-class="shortenButton.buttonClass"
+              type="button"
+              ng-click="getShortUrl();"><i class="fa" ng-class="shortenButton.iconClass"></i> shorten!</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text"> This is a <a href="https://cultivatedops.io/dcmnt-me/">Cultivated Ops</a> project.</p>
+    </div>
+  </footer>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="/assets/js/dcmntme.js"></script>
+
+</html>

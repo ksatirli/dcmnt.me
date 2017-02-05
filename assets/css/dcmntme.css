@@ -22,7 +22,7 @@ li {
 }
 
 .jumbotron {
-  background: #85D4A1;
+  background: #445c7c;
   color: #fff;
 	margin: 0 auto 50px;
 }
@@ -32,13 +32,13 @@ li {
 }
 
 .btn-info {
-	background: #85D4A1;
-	border-color: #85D4A1;
+	background: #445c7c;
+	border-color: #445c7c;
 }
 
 .btn-info:hover {
-  background: #3BB395;
-	border-color: #3BB395;
+  background: #112949;
+	border-color: #112949;
 }
 
 .col-md-12 {
@@ -51,9 +51,9 @@ li {
   width: 100%;
   height: 30px;
   text-align: center;
-  color: #85D4A1;
+  color: #445c7c;
 }
 
 .footer a {
-  color: #85D4A1;
+  color: #445c7c;
 }

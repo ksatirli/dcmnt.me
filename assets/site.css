@@ -1,14 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-/* site-specific */
 body {
-	font-family: 'Open Sans';
   margin-bottom: 30px;
 }
 

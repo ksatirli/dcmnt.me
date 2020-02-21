@@ -1,7 +1,7 @@
 'use strict';
 
 /* global angular */
-var dcmntmeApp = angular.module('dcmntmeApp', [], function($httpProvider) {
+var app = angular.module('app', [], function($httpProvider) {
 
   /* jshint ignore:start */
   $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
@@ -10,7 +10,7 @@ var dcmntmeApp = angular.module('dcmntmeApp', [], function($httpProvider) {
   void $httpProvider;
 });
 
-dcmntmeApp.controller('dcmntmeCtrl', function($scope, $http, $timeout) {
+app.controller('controller', function($scope, $http, $timeout) {
   $scope.bitlyConfig = {
     baseUrl: 'https://api-ssl.bitly.com/v3/shorten',
     login: 'dcmntme',

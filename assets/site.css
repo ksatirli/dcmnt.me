@@ -19,10 +19,6 @@ li {
 	margin: 0 auto 50px;
 }
 
-.btn {
-  text-transform: capitalize;
-}
-
 .btn-info {
 	background: #445c7c;
 	border-color: #445c7c;

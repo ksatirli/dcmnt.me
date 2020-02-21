@@ -22,7 +22,6 @@ This application depends on the bitly [v3 API](https://dev.bitly.com/links.html#
 
 Deploy to an application capable of serving HTML files (and related assets) via HTTP(s) and access `index.html` using a JavaScript-enabled browser.
 
-
 ## Author Information
 
 This module is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/dcmnt.me/graphs/contributors)

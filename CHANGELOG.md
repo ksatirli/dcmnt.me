@@ -1,0 +1,18 @@
+##  (2020-02-24)
+
+* darkens colors ([560e451](https://github.com/ksatirli/dcmnt.me/commit/560e451))
+* linting ([9aae8f1](https://github.com/ksatirli/dcmnt.me/commit/9aae8f1))
+* removes extraneous files ([32a1f13](https://github.com/ksatirli/dcmnt.me/commit/32a1f13))
+* SITE-6 ([f949424](https://github.com/ksatirli/dcmnt.me/commit/f949424))
+* SITE-6 ([c70051a](https://github.com/ksatirli/dcmnt.me/commit/c70051a))
+* updates Angular references ([5d82e20](https://github.com/ksatirli/dcmnt.me/commit/5d82e20))
+* Updates Angular references ([5bb2a78](https://github.com/ksatirli/dcmnt.me/commit/5bb2a78))
+* updates base repository files and branding ([9defa2b](https://github.com/ksatirli/dcmnt.me/commit/9defa2b))
+* updates gitignores ([663780d](https://github.com/ksatirli/dcmnt.me/commit/663780d))
+* updates LICENSE ([2525731](https://github.com/ksatirli/dcmnt.me/commit/2525731))
+* updates README ([a37e807](https://github.com/ksatirli/dcmnt.me/commit/a37e807))
+* updates references and lints ([b096e13](https://github.com/ksatirli/dcmnt.me/commit/b096e13))
+* updates references to local files ([134b2fa](https://github.com/ksatirli/dcmnt.me/commit/134b2fa))
+* updates timestamp in LICENSE and adds README ([99998c4](https://github.com/ksatirli/dcmnt.me/commit/99998c4))
+* updates versions of Angular, Bootstrap, Font Awesome ([a440742](https://github.com/ksatirli/dcmnt.me/commit/a440742))
+
